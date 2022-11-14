@@ -1,115 +1,143 @@
 [[SuperLU]]
 arch = "aarch64"
-git-tree-sha1 = "fc681b35b70b2addc1c8a460e2c999a5b81e1ef1"
-libc = "glibc"
-os = "linux"
-
-    [[SuperLU.download]]
-    sha256 = "d4fad5ea65dd3399485bdbb876755c3a3976153c4564c80b271c032bfccc185d"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.aarch64-linux-gnu.tar.gz"
-[[SuperLU]]
-arch = "aarch64"
-git-tree-sha1 = "60ccb6cb18e69e67365bf2e50a53eec0122e151e"
-libc = "musl"
-os = "linux"
-
-    [[SuperLU.download]]
-    sha256 = "922091ef06ca19da59941820285629227ff161ab91d338238d12cd37b33d9c78"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.aarch64-linux-musl.tar.gz"
-[[SuperLU]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "fffcaf8f4911b7248b4dc3fec75176d1746d1b33"
-libc = "glibc"
-os = "linux"
-
-    [[SuperLU.download]]
-    sha256 = "72a1e69917e20a9d495a5f1e21103b855bf80853ed20a84a8198c8cb001565ef"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.armv7l-linux-gnueabihf.tar.gz"
-[[SuperLU]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "cbaedcb1d04d226737d7addc40d4901a0c24a649"
-libc = "musl"
-os = "linux"
-
-    [[SuperLU.download]]
-    sha256 = "14713d3fc73e50feda67055b0270b4a9c6a337460056939750c24c3a3b3dae88"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.armv7l-linux-musleabihf.tar.gz"
-[[SuperLU]]
-arch = "i686"
-git-tree-sha1 = "7b72b98391afacd67e0b7056e8049ed96b48c8b8"
-libc = "glibc"
-os = "linux"
-
-    [[SuperLU.download]]
-    sha256 = "d112bcc1f212ad44eb3e606703e0c672da62b030d6427dec86fdbf40e1b22429"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.i686-linux-gnu.tar.gz"
-[[SuperLU]]
-arch = "i686"
-git-tree-sha1 = "7847d94e87dae6fbba3bbc76736fabbeb3367cd3"
-libc = "musl"
-os = "linux"
-
-    [[SuperLU.download]]
-    sha256 = "4453088c00e43f970fa628490b44cf9558770977469dfb2e717c18da746cde3f"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.i686-linux-musl.tar.gz"
-[[SuperLU]]
-arch = "i686"
-git-tree-sha1 = "60480525e43498360d257217543897098ffa162b"
-os = "windows"
-
-    [[SuperLU.download]]
-    sha256 = "bb8d181f6964c4ad7c5dfe24671c76135b41fea968ebfdb69a727700a68f574d"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.i686-w64-mingw32.tar.gz"
-[[SuperLU]]
-arch = "powerpc64le"
-git-tree-sha1 = "8bf235725ab63b3ed64dc9ee90589e6778b384a2"
-libc = "glibc"
-os = "linux"
-
-    [[SuperLU.download]]
-    sha256 = "190eef30e234426a33ef4b7287164f38ee9f806732a8a5c406d2a3bb1643adcc"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.powerpc64le-linux-gnu.tar.gz"
-[[SuperLU]]
-arch = "x86_64"
-git-tree-sha1 = "4377a3e0365cb09533e97f95445f7793553a200e"
+git-tree-sha1 = "26bb49e4ce422493c308205f1d0174e9f7600ca0"
 os = "macos"
 
     [[SuperLU.download]]
-    sha256 = "405563d76b4ae87bb28c17ce4f11646e3785a9b520fcaf670e3a898fc384da72"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.x86_64-apple-darwin.tar.gz"
+    sha256 = "426cbe88dcc6c04c85477246e31601cd8dda308f53b4340a7800f6f228844f6d"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.aarch64-apple-darwin.tar.gz"
 [[SuperLU]]
-arch = "x86_64"
-git-tree-sha1 = "c67ab2e91148cc28a5746e5245438be944f0171e"
+arch = "aarch64"
+git-tree-sha1 = "790f2ea210891d39676fe93dea383018cd44b559"
 libc = "glibc"
 os = "linux"
 
     [[SuperLU.download]]
-    sha256 = "a6d20b150de786d2362e505a154558ffa12e0809e5133da7541b5990a44fd8fd"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "661c45a4769a2fd693b410cd6ad63ef808f115dba6b839677940e51c134b9c46"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.aarch64-linux-gnu.tar.gz"
 [[SuperLU]]
-arch = "x86_64"
-git-tree-sha1 = "8d338891acdb99c78409cd56b25fd1323a927375"
+arch = "aarch64"
+git-tree-sha1 = "ce0771ef56cb29b2fe48728b9b1fb0239fa62ff5"
 libc = "musl"
 os = "linux"
 
     [[SuperLU.download]]
-    sha256 = "5d48346d0bdbf9620d33af0263de6d49ad218e68ac8c771e77c9dce93b698400"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.x86_64-linux-musl.tar.gz"
+    sha256 = "17748744aeb57e4d3d403dc8e8d52cf070a0e2c25459775ed454292c1d637b28"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.aarch64-linux-musl.tar.gz"
 [[SuperLU]]
-arch = "x86_64"
-git-tree-sha1 = "ac51d627684b816bd813e9a86064765ac1526e1d"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5b54ec110dcf52fe7a5600a50324b875d69160cc"
+libc = "glibc"
+os = "linux"
 
     [[SuperLU.download]]
-    sha256 = "e5f6e4648bd6cdd91e71a6674770ac7cb0fe22e92ad9e5052a6c435c3afef5e4"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "542004eb90facc190c8762951cbdf0d45c70d2da3864088390f20fce09584df1"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.armv6l-linux-gnueabihf.tar.gz"
 [[SuperLU]]
-arch = "x86_64"
-git-tree-sha1 = "596874003cdf7de118a3f922525c464669e97c7a"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "fe7746fa0e9e293244175d5f6b35753106a80b4d"
+libc = "musl"
+os = "linux"
+
+    [[SuperLU.download]]
+    sha256 = "3d3e4259d5e06430ba79404abdfeeae79b2223e1f80f7f1fd2a12af1eec8da41"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.armv6l-linux-musleabihf.tar.gz"
+[[SuperLU]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ab3d522ef062646b6ab2450743368718ddfba5aa"
+libc = "glibc"
+os = "linux"
+
+    [[SuperLU.download]]
+    sha256 = "c53b119be872d89e8aa7db94f02dad54e9ab690acce66293d3c89f761566679b"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.armv7l-linux-gnueabihf.tar.gz"
+[[SuperLU]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f6ceae50ef10eeba68d6782db655ff7cce8cb678"
+libc = "musl"
+os = "linux"
+
+    [[SuperLU.download]]
+    sha256 = "f079a3f57325dae1edc961518fc3d78fafeabf1e607e1670962f40b5ac7b2698"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.armv7l-linux-musleabihf.tar.gz"
+[[SuperLU]]
+arch = "i686"
+git-tree-sha1 = "b5671f1428331c0a25ad631abb7eaf730ea12061"
+libc = "glibc"
+os = "linux"
+
+    [[SuperLU.download]]
+    sha256 = "6738e030716d4abad5a01c365930ae2af3d0a799592d726d22f7303e80f8e69c"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.i686-linux-gnu.tar.gz"
+[[SuperLU]]
+arch = "i686"
+git-tree-sha1 = "59e9b1f9d0f76ce672c6e3f9bc5772fc3a82d414"
+libc = "musl"
+os = "linux"
+
+    [[SuperLU.download]]
+    sha256 = "2469edca51906c63f816c77dcd0807f39e2d45a13ee27b200137d0d16587cbb2"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.i686-linux-musl.tar.gz"
+[[SuperLU]]
+arch = "i686"
+git-tree-sha1 = "fd4f0a3b85439cd20413fc25c8a0b2e5923084a0"
 os = "windows"
 
     [[SuperLU.download]]
-    sha256 = "dc461813dd072ec56205c9efbad643017fe6efde9eb35b6c81b0a7b9615a3f80"
-    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.2.2+0/SuperLU.v5.2.2.x86_64-w64-mingw32.tar.gz"
+    sha256 = "1ca9a46c4f18a5a8868e5e2c0dcdab9e5fde8ff9887568627ac0e7ffa9034e77"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.i686-w64-mingw32.tar.gz"
+[[SuperLU]]
+arch = "powerpc64le"
+git-tree-sha1 = "d8a165c1febc6fba644455902cae2d0a9250fee7"
+libc = "glibc"
+os = "linux"
+
+    [[SuperLU.download]]
+    sha256 = "b6bb808eed51c0a2ed7e68fc242e525eb508eb5392f3da7dbcaf1010e179680d"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.powerpc64le-linux-gnu.tar.gz"
+[[SuperLU]]
+arch = "x86_64"
+git-tree-sha1 = "76449dac3d14dace1d780181370ddabdf0fa3635"
+os = "macos"
+
+    [[SuperLU.download]]
+    sha256 = "1aff50ad630d63d7a7f2432dd682ab78b0d6ed445b1e8477939d89531ff65492"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.x86_64-apple-darwin.tar.gz"
+[[SuperLU]]
+arch = "x86_64"
+git-tree-sha1 = "0603402067d339b7a5d81c1b6f1f684646a4250c"
+libc = "glibc"
+os = "linux"
+
+    [[SuperLU.download]]
+    sha256 = "84309791433c5c58649dee9965dd407f4027b07c2f9d0d8c98c609c3fcddd4d0"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.x86_64-linux-gnu.tar.gz"
+[[SuperLU]]
+arch = "x86_64"
+git-tree-sha1 = "659d53b00f867d4a875e387cad9cc79223231505"
+libc = "musl"
+os = "linux"
+
+    [[SuperLU.download]]
+    sha256 = "ebdeeac2d8f3709586d02f26cfe2076b5c6ff28a7f59b8ca8d2eafd96136f295"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.x86_64-linux-musl.tar.gz"
+[[SuperLU]]
+arch = "x86_64"
+git-tree-sha1 = "25e63d3f0a98e0e209f8861d84eaa2f44a503304"
+os = "freebsd"
+
+    [[SuperLU.download]]
+    sha256 = "aaa67a6d8ec4f3711eeaac2206748562d7a6523fc67f2cb53ee561ac73e87914"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.x86_64-unknown-freebsd.tar.gz"
+[[SuperLU]]
+arch = "x86_64"
+git-tree-sha1 = "4640b32562ca6d441962cc829cb18cce6ca2844e"
+os = "windows"
+
+    [[SuperLU.download]]
+    sha256 = "c147ff9a8f3af7a3d53961538cd2a56e926e8ee501f8104f59a68f5d25d3d131"
+    url = "https://github.com/JuliaBinaryWrappers/SuperLU_jll.jl/releases/download/SuperLU-v5.3.0+0/SuperLU.v5.3.0.x86_64-w64-mingw32.tar.gz"
